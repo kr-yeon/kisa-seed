@@ -694,9 +694,7 @@ export class KISA_SEED_CBC {
   }
 
   private static uint8ToBase64(uint8Array: Uint8Array): string {
-    const decoder = new TextDecoder("base64");
-
-    return decoder.decode(uint8Array);
+    return Buffer.from(uint8Array).toString('base64');
   }
 
   public static encrypt(

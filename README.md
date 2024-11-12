@@ -8,9 +8,11 @@ This is a typescript conversion of the Java class mentioned in the above website
 
 Since it is almost a direct translation, it will not follow typescript standards and best practices.
 
+Thank you for https://github.com/predict-woo/kisa-seed
+
 ## Installation
 ```
-npm install kisa-seed
+npm install @kryeon/kisa-seed
 ```
 
 ## Usage
